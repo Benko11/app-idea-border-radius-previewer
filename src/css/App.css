@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    background: royalblue;
+    width: 30vw;
+    height: 20vh;
+    padding: 1.5rem 2rem;
+    color: #fff;
+}
+
+@media (max-width: 1000px) {
+    .box {
+        width: 100%;
+    }
+}
