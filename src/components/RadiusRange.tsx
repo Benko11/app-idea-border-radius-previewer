@@ -20,6 +20,7 @@ const RadiusRange = (props: Props) => {
                 value={value}
                 onChange={onChange}
             />
+            {value}px
         </div>
     );
 };
